@@ -1,5 +1,7 @@
 let link = 'https://jsonplaceholder.typicode.com/posts';
 
+console.log('Tes Github!');
+
 fetch(link).then((res)=>res.json()).then((data)=>{
     let html = document.querySelector('.data');
 
